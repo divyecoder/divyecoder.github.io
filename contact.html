@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script type="text/javascript">
+		function show() {
+			var a=document.getElementById('name').value;
+			var b=document.getElementById('email').value;
+		if(a=="") 
+			alert('Please Enter Name');
+		else if (b=="") 
+			alert("Please Enter Email");
+		else
+			alert("Details send");
+		}
+	</script>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<ul>
+			<li><a href="home.html" class="hi"> HOME </a></li>
+			<li><a href="about.html" class="hi"> ABOUT </a></li>
+			<li><a href="project.html" class="hi"> PROJECTS </a></li>
+			<li><a href="service.html" class="hi"> SERVICES </a></li>
+			<li><a href="contact.html" class="hi"> CONTACT </a></li>
+		</ul>
+	</div>
+	<div class="second">
+		<center>
+		<div class="background">
+			<h1>CONTACT US</h1>
+			<form class="form">
+				NAME: <br>
+				<input type="text" size="40" placeholder="Full Name" required="required" id="name">
+				<br><br>
+				MOBILE:<br>
+				<input type="text" size="40" placeholder="Mobile Number">
+				<br><br>
+				EMAIL:<br>
+				<input type="text" size="40" placeholder="Email Address" required="required" id="email">
+				<br><br>
+				SUBJECT:<br>
+				<input type="text" size="40" placeholder="Enter The Subject">
+				<br><br>
+				MESSAGE:<br>
+				<textarea cols="38" rows="4" placeholder="Enter Your Message"></textarea>
+				<br><br>
+				<button id="button" onclick="show()">ENTER</button>
+			</form>
+		</div>
+	</center>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.container{
+	margin: 10px 145px 10px;
+	background: lightgrey;
+	width: 1200px;
+	height: 690px;
+	box-shadow: 0px 0px 100px orange;
+	border: 1px solid orange;
+}
+.header{
+	width: 100%;
+	height: 130px;
+	background: black;
+}
+	ul{
+		list-style: none;
+		height: 130px;
+		margin-left: 495px;
+		margin-top: 0px;
+		
+	}
+		ul li{
+			
+			display: inline-block;
+			padding: 50px 1px;
+		}
+			ul li a{
+				color: orange;
+				text-decoration: none;
+				font-size: 21px;
+				padding: 15px 10px;
+				font-family: 'Times New Roman';
+				
+			}
+				.hi:hover{
+				font-size: 25px;
+				border: 1px solid orange;
+				box-shadow: 0px 0px 10px orange;
+			}
+.second{
+	background-image: url("tree4.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 560px;
+}
+	.background{
+		padding-top: 30px;
+		background-color: rgb(0, 0, 0,0.4);
+		height: 530px;
+		color: white;
+		width: 50%;
+		font-family: "Times New Roman";
+	}
+		h1{
+			text-align: center;
+			margin-top: 0px;
+			font-size: 42px;
+		}
+		.form{
+			text-align: left;
+			margin-left: 155px;
+			font-size: 20px;
+		}
+			input{
+				font-size: 14px;
+				padding: 4px;
+				border: 1px solid black;
+				border-radius: 5px;
+				box-shadow: inset 0px 0px 5px black;
+			}
+			textarea{
+				font-size: 14px;
+				padding: 4px;
+				border: 1px solid black;
+				border-radius: 5px;
+				box-shadow: inset 0px 0px 5px black;
+
+			}
+				#button{
+					background: orange;
+					padding: 4px 12px 4px;
+					font-size: 13.5px;
+					font-weight: bold;
+					border: 2px solid black;
+					border-radius: 10px;
+					margin-left: 120px;
+				}
+					#button:hover{
+						box-shadow: 0px 0px 10px orange;
+
+					}
